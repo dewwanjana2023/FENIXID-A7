@@ -1,6 +1,6 @@
 module.exports = {
     autoLikeStatus: process.env.AUTO_LIKE_STATUS === 'true',
-    downloadMediaStatus: process.env.DOWNLOAD_MEDIA_STATUS === 'true',
+    downloadMediaStatus: process.env.DOWNLOAD_MEDIA_STATUS === 'false',
     sensorNumber: process.env.SENSOR_NUMBER === 'true',
     sendWelcomeMessage: process.env.SEND_WELCOME_MESSAGE === 'true',
 
@@ -8,7 +8,7 @@ module.exports = {
     whiteList: process.env.WHITE_LIST ? process.env.WHITE_LIST.split(',') : [],
 
     fenixaboutype: process.env.FENIX_ABOUT_TYPE || 'Programming',
-    ownerNumber: process.env.OWNER_NUMBER || '94773010580',
+    ownerNumber: process.env.OWNER_NUMBER || '94760683496',
     userTimezone: process.env.USER_TIMEZONE || 'Asia/Colombo',
     FenixName: process.env.FENIX_NAME || 'Unknown Friend',
 
@@ -19,23 +19,23 @@ module.exports = {
 
     // Status motion push
     autodetect1: process.env.AUTO_DETECT_1 || 'heyyy 😸',
-    autodetect2: process.env.AUTO_DETECT_2 || 'ඔයගෙ නම්බරෙ ගත්තෙ ස්ටෙටස් එකකින් 🫠',
+    autodetect2: process.env.AUTO_DETECT_2 || 'ඔයගෙ නම්බරෙ ගත්තෙ ස්ටෙටස් එකකින් ඔයාගෙ විස්තර කියන්න🫠',
     privateautodetect1: process.env.PRIVATE_AUTO_DETECT_1 || 'heyyy 😸',
     privateautodetect2: process.env.PRIVATE_AUTO_DETECT_2 || 'ඔයගෙ නම්බරෙ ගත්තෙ කෙනෙක් ශෙයා කරනකොට 😫',
 
     // Bot details
     botDetails: {
-        botName: process.env.BOT_NAME || 'FENX ID OWNER',
-        botAge: process.env.BOT_AGE || '26',
-        botLocation: process.env.BOT_LOCATION || 'SRILANKA',
-        botEmail: process.env.BOT_EMAIL || 'privateloginemails@gmail.com',
+        botName: process.env.BOT_NAME || 'DEW ID OWNER',
+        botAge: process.env.BOT_AGE || '18',
+        botLocation: process.env.BOT_LOCATION || 'MIDIGAMA',
+        botEmail: process.env.BOT_EMAIL || 'dewanjana2023@gmail.com',
     },
 
     relaxWishes: process.env.RELAX_WISHES || 'Take a deep breath... 🌿',
 
     // MongoDB settings
     mongoURI: process.env.MONGO_URI || 'mongodb+srv://Own:Own@cluster0.aahbv.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0',
-    dbName: process.env.DB_NAME || 'Own',
+    dbName: process.env.DB_NAME || 'dew',
 
     // Collections
     collections: {
